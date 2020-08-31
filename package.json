@@ -1,0 +1,33 @@
+{
+  "name": "babel-plugin-dynamic-import-chunk-name",
+  "version": "0.0.0-semantically-released",
+  "description": "Babel plugin to automatically add a webpackChunkName comment to dynamic imports.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widen/babel-plugin-dynamic-import-chunk-name.git"
+  },
+  "keywords": [
+    "babel-plugin",
+    "webpack",
+    "dynamic-import"
+  ],
+  "author": "Widen Enterprises",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Widen/babel-plugin-dynamic-import-chunk-name/issues"
+  },
+  "homepage": "https://github.com/Widen/babel-plugin-dynamic-import-chunk-name#readme",
+  "files": [
+    "index.js"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.1.1",
+    "semantic-release": "^17.1.1"
+  }
+}
