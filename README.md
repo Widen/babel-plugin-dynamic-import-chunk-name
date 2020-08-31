@@ -1,0 +1,1 @@
+# babel-plugin-dynamic-import-chunk-name
