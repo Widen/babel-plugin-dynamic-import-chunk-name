@@ -2,9 +2,7 @@ const babel = require("@babel/core")
 const plugin = require("../")
 
 function transform(code) {
-  return babel.transform(`import(${code})`, {
-    plugins: [plugin, "@babel/plugin-syntax-dynamic-import"],
-  }).code
+  return babel.transform(`import(${code})`, { plugins: [plugin] }).code
 }
 
 it("should transform simple file paths", () => {
